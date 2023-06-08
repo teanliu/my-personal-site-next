@@ -28,11 +28,6 @@ export default async function Project ({ params }: Props ) {
         </a>
       </header>
 
-      {/* content goes here */}
-      <div className="text-lg text-gray-600 mt-5">
-        <PortableText value={project.content} />
-      </div>
-
       {/* image goes here */}
       <Image
         src={project.image}
@@ -41,6 +36,11 @@ export default async function Project ({ params }: Props ) {
         height={1080}
         className="mt-10 border-2 border-gray-700 object-cover rounded-xl"
       />
+
+      {/* content goes here */}
+      <div className="text-lg text-gray-600 mt-5">
+        <PortableText value={project.content} />
+      </div>
     </div>
   );
     
