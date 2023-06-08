@@ -20,7 +20,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className} className="max-w-3xl mx-auto py-10">
+      <body className={`max-w-3xl mx-auto py-10 ${inter.className}`}>
         <header className="flex items-center justify-between">
           <Link
             href="/"
