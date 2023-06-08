@@ -14,14 +14,14 @@ export default async function Page ({ params }: Props) {
         {page.title}
       </h1>
 
-      <div className="text-lg text-gray-700 mt-10">
+      <div className="text-lg text-gray-700 mt-10 text-justify">
         {page.image && (
           <Image
             src={page.image}
             alt={page.title}
             width={750}
             height={300}
-            className="my-3 object-cover rounded-lg border border-gray-500"
+            className="my-3 object-cover rounded-lg border border-gray-500 mx-auto"
           />
         )}
         <PortableText value={page.content} />
