@@ -15,7 +15,8 @@ export default async function Home() {
             Te-An Liu !
           </span>
         </h1>
-
+        
+        {/* introduction of this project */}
         <p className="mt-3 text-xl text-gray-600 text-justify">
           This personal website utilizes Next.js 13, Sanity.io, TailwindCSS, and
           TypeScript. Leveraging Next.js for fast performance and Sanity.io for
